@@ -4,6 +4,7 @@
 typedef long long ll;
 using namespace std;
 map<ll,ll> mp;
+
 int main(){
     ll n;    scanf("%lld", &n);
     for(ll i=2 ; i*i<=n ; i++){
